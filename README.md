@@ -1,72 +1,103 @@
-## Image to PDF Converter
+#  PDF Converter Tool
 
-Convert any image format to PDF with a beautiful, modern web interface. Supports JPEG, PNG, GIF, BMP, TIFF, WebP, SVG, ICO, HEIC, HEIF and more.
+A simple and efficient **PDF Converter** application built to convert files into PDF format seamlessly. This project was developed with the assistance of **Claude AI**, focusing on clean code structure, usability, and performance.
 
-### Quick Start
+---
 
-1) Install dependencies
+##  Features
 
-```bash
-npm install
-```
+* Convert multiple file formats to PDF
+* Fast and lightweight processing
+* Easy file selection and handling
+*  User-friendly interface
+*  Clean and modular codebase
 
-2) Start the app
+---
 
-```bash
-npm run dev
-```
+##  Built With
 
-The app will be available at: http://localhost:5173
+* Python (or mention your language)
+* Relevant libraries (e.g., `reportlab`, `PyPDF2`, `fpdf`, etc.)
+* Claude AI (for development assistance and optimization)
 
-### Features
+---
 
-- 🖼️ **Multiple Image Formats**: Supports JPEG, PNG, GIF, BMP, TIFF, WebP, SVG, ICO, HEIC, HEIF
-- 📁 **Drag & Drop**: Easy file upload with drag-and-drop support
-- 👀 **Image Preview**: Preview all selected images before conversion
-- 🔄 **Reorder Images**: Move images up or down to control PDF page order
-- 📄 **Custom PDF Names**: Set a custom filename for your PDF
-- 🎨 **Modern UI**: Beautiful, responsive interface with dark theme
-- ⚡ **Fast Conversion**: Quick and efficient PDF generation
-- 🔒 **Privacy First**: All processing happens in your browser - no uploads to servers
+##  Installation
 
-### Usage
+1. Clone the repository:
 
-1. **Upload Images**: Click the upload area or drag and drop image files
-2. **Review & Reorder**: Preview your images and reorder them if needed
-3. **Set PDF Name**: Optionally customize the output PDF filename
-4. **Convert**: Click "Convert to PDF" to generate and download your PDF
+   ```bash
+   git clone https://github.com/your-username/pdf-converter.git
+   ```
 
-### Supported Formats
+2. Navigate to the project folder:
 
-- JPEG / JPG
-- PNG
-- GIF
-- BMP
-- TIFF / TIF
-- WebP
-- SVG
-- ICO
-- HEIC / HEIF
+   ```bash
+   cd pdf-converter
+   ```
 
-### Technical Details
+3. Install dependencies:
 
-- Built with React + TypeScript
-- Uses jsPDF for PDF generation
-- All processing happens client-side in your browser
-- No backend server required for basic functionality
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-### Development
+---
+
+##  Usage
+
+Run the application:
 
 ```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
+python main.py
 ```
+
+Follow on-screen instructions to upload/convert files.
+
+---
+
+## Project Structure
+
+```
+pdf-converter/
+│── main.py
+│── converter.py
+│── requirements.txt
+│── README.md
+```
+
+---
+
+##  AI Assistance
+
+This project was developed with the help of **Claude AI**, which assisted in:
+
+* Code generation and debugging
+* Improving logic and structure
+* Enhancing overall development workflow
+
+---
+
+##  Future Improvements
+
+* Add drag-and-drop UI
+* Support more file formats
+* Batch conversion feature
+* GUI (Tkinter / Web App)
+
+---
+
+##  Contributing
+
+Feel free to fork this repository and contribute by submitting a pull request.
+
+---
+
+
+---
+
+## Author
+
+Developed by *[Adwaith Mohan]*
+
+---
